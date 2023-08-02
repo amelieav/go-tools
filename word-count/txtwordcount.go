@@ -16,7 +16,7 @@ func main() {
 	}
 
 	filePath := os.Args[1]
-	wordCount, err := countWordsInFile(filePath)
+	wordCount, err := countWordsInDocxFile(filePath)
 	if err != nil {
 		log.Fatalf("Error reading file: %s", err)
 	}
