@@ -2,7 +2,7 @@
 ### Simple tools coded in Golang.
 
 linecount.go counts the number of lines in a given css, js or html file. 
-Run with: ```go run linecount.go <file_type> <file_path>```
+Run with: ```go run linecount.go <file_type> <file_path>```\
 For example: ```go run linecount.go css style.css```
 
 #### To-Do: Be able to pass in a folder and return analysis of files within it.
